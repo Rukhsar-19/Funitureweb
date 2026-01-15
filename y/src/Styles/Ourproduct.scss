@@ -1,0 +1,120 @@
+.product-info {
+  background-color: #f4f5f7;
+  padding: 18px;
+  .head {
+    font-size: 29px;
+    color: black;
+    font-weight: 700;
+  }
+  .text {
+    color: #b9b6b6;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 7px 0;
+  }
+  .totalprice {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+  }
+  .product-price {
+    display: flex;
+    justify-content: space-between;
+  }
+  .priceline {
+    font-size: 16px;
+    color: #b1b4ba;
+    text-decoration: line-through;
+  }
+}
+.discount {
+  border-radius: 50px;
+  width: 47px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e97171;
+  color: #ffffff;
+  position: absolute;
+  top: 22px;
+  right: 21px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.greendiscount{
+    background-color: #2EC1AC;
+}
+.product-pic {
+  position: relative;
+}
+.product-card {
+  position: relative;
+  overflow: hidden;
+  margin:15px 0 ;
+}
+
+/* Overlay Box */
+.product-hover {
+  position: absolute;
+  inset: 0;
+  background: #3a3a3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+
+/* Show on Hover */
+.product-card:hover .product-hover {
+  opacity: 0.72;
+  visibility: visible;
+  .add-btn{
+   
+  }
+
+}
+
+/* Add To Cart Button */
+.add-btn {
+  background: #ffffff;
+  color: #b88e2f;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  z-index: 10;
+  
+}
+
+/* Share | Compare | Like */
+.bottom-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.borderbtn{
+    border:1px solid #b88e2f;
+    padding: 10px 63px;
+    color: #b88e2f;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+
+}
+.showmorebtn{
+    text-align: center;
+    margin-top: 15px;
+}
+.product-link{
+  text-decoration: none;
+}

@@ -1,0 +1,93 @@
+.product-compare {
+  .text {
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+  }
+  .viewmore {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    color: #727272;
+    margin-top: 30px;
+  }
+}
+.comparefun {
+  .img-pro {
+    img {
+      width: 200px;
+      height: 144px;
+    }
+  }
+  .prod-info {
+    .text {
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .para {
+      color: black;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .fav-icons {
+      display: flex;
+      gap: 5px;
+      .color-yellow {
+        color: #ffc700;
+      }
+      .reviews {
+        font-size: 13px;
+        color: #727272;
+      }
+    }
+  }
+}
+.Addproduct {
+  .text {
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .btn-primary{
+    background-color: #B88E2F;
+    border: none;
+  }
+}
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.spec-table th {
+  text-align: left;
+  font-size: 18px;
+  padding: 16px 12px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.spec-table td {
+  padding: 14px 12px;
+  color: #444;
+  vertical-align: top;
+}
+
+/* Vertical separators like image */
+.spec-table td:not(:last-child),
+.spec-table th:not(:last-child) {
+  border-right: 1px solid #eee;
+}
+
+/* First column (labels) */
+.spec-table td:first-child {
+  font-weight: 500;
+  color: #000;
+  width: 30%;
+}
+.add-comp-btn{
+    background-color: #B88E2F;
+    color: #e5e5e5;
+    border: none;
+    padding: 11px 38px;
+}

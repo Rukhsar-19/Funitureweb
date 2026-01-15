@@ -1,0 +1,143 @@
+.shopback {
+  background-image: url("../assets/shopback.webp");
+  background-size: cover;
+  height: 50vh;
+  background-position: left;
+  position: relative;
+  z-index: 9;
+  .shop-pos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .title {
+      font-size: 37px;
+      color: black;
+      font-weight: 600;
+    }
+    .shop-align {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      justify-content: center;
+      .para {
+        font-size: 15px;
+        font-weight: 500;
+        color: black;
+      }
+      i {
+        font-size: 15px;
+        color: black;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+// filters
+
+.filters {
+  background-color: #f9f1e7;
+  padding: 34px 0;
+  .filters-pic {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    .filters-equal {
+      display: flex;
+      gap: 8px;
+     
+      .filter-head {
+        font-size: 21px;
+        color: black;
+        font-weight: 500;
+      }
+      i {
+        font-size: 21px;
+      }
+    }
+    .filter-screen {
+      display: flex;
+      gap: 8px;
+      i {
+        font-size: 21px;
+      }
+    }
+    .show-data {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .line {
+        width: 2px;
+        height: 25px;
+        background-color: black;
+      }
+    }
+  }
+
+  .show-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    .show-head {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      .number {
+        width: 40px;
+        height: 44px;
+        border-radius: 6px;
+        color: #9f9f9f;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .def-w{
+        width: 80px;
+      }
+    }
+  }
+}
+
+// topmaterilas
+
+.quality{
+    background-color: #FAF3EA;
+    padding:80px 0;
+    .allitems{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    .items-include{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .trophy{
+        img{
+            width:50px;
+        }
+       
+    }
+
+     .trophy-txt{
+
+        .head{
+            font-size: 21px;
+            color: black;
+            font-weight: 700;
+        }
+        .para{
+            font-size: 16px;
+        }
+
+        }
+    }
+}

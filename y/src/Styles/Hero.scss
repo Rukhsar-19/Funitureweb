@@ -1,0 +1,46 @@
+.hero-back {
+  background-image: url("../assets/heroback.webp");
+  background-size: cover;
+  background-position: center;
+  height: 83vh;
+  position: relative;
+  z-index: 10;
+  .hero-card {
+    position: absolute;
+    right: 180px;
+    top: 229px;
+    max-width: 533px;
+    background: #fff3e3;
+    border-radius: 10px;
+    padding: 35px;
+
+    .head {
+      font-size: 13px;
+      color: #333333;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .text {
+      font-size: 56px;
+      font-weight: 700;
+      color: #b88e2f;
+      line-height: 63px;
+    }
+    .para {
+      font-size: 14px;
+      color: #333333;
+      font-weight: 500;
+      margin: 20px 0;
+    }
+    .buynow {
+      background-color: #b88e2f;
+      font-size: 11px;
+      font-weight: 500;
+      color: #ffffff;
+      padding: 16px 56px;
+      border: none;
+    }
+  }
+}
+
+  

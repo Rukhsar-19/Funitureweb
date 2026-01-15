@@ -1,0 +1,44 @@
+.footer {
+  border-top: 1px solid #d1d0d0;
+  .mail-fun {
+    color: #9f9f9f;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .people-mail {
+    color: #9f9f9f;
+    font-size: 16px;
+  }
+  .links-footer {
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    li {
+      margin-bottom: 30px;
+    }
+    .link-head {
+      color: #9f9f9f;
+      font-size: 17px;
+    }
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid;
+  }
+  .subscribe-btn {
+    border: none;
+    border-bottom: 1px solid;
+    margin-left: 18px;
+    background-color: transparent;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+  }
+  .footer-bottom{
+  border-top: 1px solid #d1d0d0;
+    padding-top: 24px;
+}
+}
